@@ -16,7 +16,7 @@ The goal is to show that I understand how to connect STT → LLM → TTS into a 
 
 This repo contains one main notebook:
 
-- `colab_voice_pipeline.ipynb`  
+- `whisper_kokoro_pipecat.ipynb`  
   A Colab notebook that runs the full pipeline:
 
   1. Load a Whisper model on GPU (Colab).
@@ -77,7 +77,7 @@ print("Whisper model loaded.")
 ```python
 from groq import Groq
 
-client = Groq(api_key="YOUR_GROQ_API_KEY_HERE")
+client = Groq(api_key="GROQ_API_KEY_HERE")
 ```
 
 To get an API key:
